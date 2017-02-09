@@ -4,7 +4,7 @@ class TwiteratorCLI
 
   def initialize
     puts " "
-    puts "************ | TWITERATOR v0.02 | ************"
+    puts "************ | TWITERATOR 0.1.0 | ************"
     puts " "
     puts "\nHi there! I'm Twiterator, a Ruby cli scraper for"
     puts "the popular social networking site, Twitter."
