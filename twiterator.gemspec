@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Twitter CLI}
   spec.description   = %q{A simple twitter gem that allows you to explore the popular social networking site from the comfort of your command line.}
-  spec.homepage      = "https://rubygems.org/gems/twiterator"
+  spec.homepage      = "https://github.com/gloverab/twiterator"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -29,9 +29,9 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+
+  spec.executables   << "twiterator"
+  spec.require_paths = ["lib", 'lib/twiterator']
 
   spec.add_dependency 'nokogiri', '1.7.0'
 
