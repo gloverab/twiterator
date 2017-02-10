@@ -2,30 +2,27 @@
 
 Welcome to Twiterator, a simple CLI browser for the popular social networking site, twitter.
 
-## Installation
+## Features
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'twiterator'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install twiterator
+As of version 0.2.0, a user is able to:
+  -Input a twitter handle
+  -Search for a user if they don't know the handle. Spaces and misspellings are allowed.
+  -Search will display user's handle & display name, along with bio.
+  -See stats on the user of their choice (followers, following).
+  -Display up to 20 tweets from the user of their choice.
+  -Differentiate between a retweet and an original tweet.
+  -Display up to 15 replies to any given tweet.
+  -Display stats on any given tweet (# of likes, retweets, and replies).
+  -Navigate easily with simple commands such as "back," "new," "more," etc...
+  -Maybe even a little more than that!
 
 ## Usage
 
-To use Twiterator, run bin/console and follow whatever instructions show up on the screen. It's pretty simple.
+To use Twiterator, run bin/console and follow whatever instructions show up on the screen.
 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[gloverab]/twiterator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 
 ## License
 

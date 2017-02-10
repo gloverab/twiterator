@@ -4,7 +4,7 @@ class TwiteratorCLI
 
   def initialize
     puts " "
-    puts "************ | TWITERATOR 0.1.0 | ************"
+    puts "************ | TWITERATOR #{Twiterator::VERSION} | ************"
     puts " "
     puts "\nHi there! I'm Twiterator, a Ruby cli scraper for"
     puts "the popular social networking site, Twitter."
@@ -24,7 +24,7 @@ class TwiteratorCLI
       search_possible(user)
       display_possible
       new_user_menu
-    else
+    elsif
       @user = User.new(user)
     end
     display_profile
