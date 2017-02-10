@@ -77,10 +77,10 @@ class User
     self.tweets << Tweet.new(url, user)
   end
 
-  def similar_users
-    binding.pry
-    display_name = self.doc.css('.related-users .fullname')[0].text
-    user_name = self.doc.css('.related-users .username')[0].text
-  end
+  # This would have been something cool to implement but sadly Twitter doesn't have the feature.
+  # def similar_users
+  #   display_name = self.doc.css('.related-users .fullname')[0].text
+  #   user_name = self.doc.css('.related-users .username')[0].text
+  # end
 
 end
