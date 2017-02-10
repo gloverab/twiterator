@@ -5,6 +5,7 @@ Welcome to Twiterator, a simple CLI browser for the popular social networking si
 ## Features
 
 As of version 0.2.1, a user is able to:
+
   -Input a twitter handle
   -Search for a user if they don't know the handle. Spaces and misspellings are allowed.
   -Search will display user's handle & display name, along with bio.
@@ -18,7 +19,7 @@ As of version 0.2.1, a user is able to:
 
 ## Usage
 
-To use Twiterator, run bin/console and follow whatever instructions show up on the screen.
+To use Twiterator, just type "twiterator" into your terminal, and follow whatever instructions show up on the screen.
 
 ## Contributing
 

@@ -4,6 +4,8 @@ require_relative "twiterator/twiterator-cli.rb"
 require_relative "twiterator/user.rb"
 require_relative "twiterator/verification.rb"
 require_relative "twiterator/version"
+require 'open-uri'
+require 'nokogiri'
 
 module Twiterator
   # Your code goes here...
